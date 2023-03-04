@@ -1,0 +1,101 @@
+html {
+  font-size: 62.5%;
+}
+
+body{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #F9F9F9;
+  overflow-x: hidden;
+}
+
+.chat{
+  display: flex;
+  flex-direction: column;
+  min-width: 88vw;
+  background-color: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding:1rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+ padding:.5rem;
+ background-color: #DADADA;
+}
+
+.logo i{
+  color: #5D13E7;
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.message_sec{
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.message{
+  border-radius: 1rem;
+  min-width: 10rem;
+  max-width: 30rem;
+  height: max-content;
+  color: #fff;
+  font-size: 1.4rem;
+  margin-top: .5rem;
+  padding-left:.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.message p{
+  margin: .4rem;
+}
+
+#timestamp{
+ font-size: .9rem;
+ margin-left: auto; 
+margin-right: .2rem;
+ align-self: flex-end;
+}
+
+
+
+.outgoingMsg{
+  background-color: #E5D1FA;
+  margin-left: auto;
+  color: #000;
+}
+
+.incomingMsg{
+  background-color: #AD7BE9;
+  color: #fff;
+  margin-right: auto;
+}
+
+.inputMsg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: .8rem;
+}
+
+.inputMsg textarea{
+  width: 85%;
+  border: 1px solid black;
+  outline: none;
+}
+
+.inputMsg i{
+  font-size: 3rem;
+  color: #5D13E7;
+  padding-left: .5rem;
+}
