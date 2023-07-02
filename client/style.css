@@ -2,100 +2,109 @@ html {
   font-size: 62.5%;
 }
 
-body{
+body {
   width: 100vw;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   overflow-x: hidden;
 }
 
-.chat{
+.chat {
   display: flex;
   flex-direction: column;
   min-width: 88vw;
   background-color: #fff;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  padding:1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
- padding:.5rem;
- background-color: #DADADA;
+  padding: 0.5rem;
+  background-color: #dadada;
 }
 
-.logo i{
-  color: #5D13E7;
+.logo i {
+  color: #5d13e7;
   font-size: 3rem;
   margin-right: 1rem;
 }
 
-.message_sec{
+.message_sec {
   height: 45rem;
   display: flex;
   flex-direction: column;
   overflow: auto;
 }
 
-.message{
+.message {
   border-radius: 1rem;
   min-width: 10rem;
   max-width: 30rem;
   height: max-content;
   color: #fff;
   font-size: 1.4rem;
-  margin-top: .5rem;
-  padding-left:.5rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
 }
-.message p{
-  margin: .4rem;
+.message p {
+  margin: 0.4rem;
 }
 
-#timestamp{
- font-size: .9rem;
- margin-left: auto; 
-margin-right: .2rem;
- align-self: flex-end;
+#timestamp {
+  font-size: 0.9rem;
+  margin-left: auto;
+  margin-right: 0.2rem;
+  align-self: flex-end;
 }
 
-
-
-.outgoingMsg{
-  background-color: #E5D1FA;
+.outgoingMsg {
+  background-color: #e5d1fa;
   margin-left: auto;
   color: #000;
 }
 
-.incomingMsg{
-  background-color: #AD7BE9;
+.incomingMsg {
+  background-color: #ad7be9;
   color: #fff;
   margin-right: auto;
 }
 
-.inputMsg{
+.inputMsg {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
 }
 
-.inputMsg textarea{
+.inputMsg textarea {
   width: 85%;
   border: 1px solid black;
   outline: none;
 }
 
-.inputMsg i{
+.inputMsg i {
   font-size: 3rem;
-  color: #5D13E7;
-  padding-left: .5rem;
+  color: #5d13e7;
+  padding-left: 0.5rem;
+}
+
+.infoMsg p {
+  background-color: rgb(93, 93, 91);
+  width: fit-content;
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0.6rem;
 }
