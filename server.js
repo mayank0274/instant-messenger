@@ -16,7 +16,7 @@ http.listen(port, () => {
 // socket connection
 const io = require("socket.io")(http);
 
-const users = [];
+const users = {};
 
 io.on("connection", (socket) => {
   // send new connection msg
